@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snap for emotions</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<style>
+    input[type='text'] { font-size: 12px; font-family: "Montserrat Alternates"; height: 13rem;}
+    </style>
+<body>
+  <div class="container">
+    <img src="c.png" alt="Logo" class="logo">
+    <input type="text" row="8" id="textInput" placeholder="Write about how you feel and watch it go" class="text-input">
+    <div class="buttons">
+      <button onclick="startTimer(15)">15 sec</button>
+      <button onclick="startTimer(30)">30 sec</button>
+      <button onclick="startTimer(60)">60 sec</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
